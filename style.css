@@ -1,0 +1,445 @@
+/* Ejercicio 1 */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* seccion navbar */
+.navbar__container {
+    position: fixed;
+    height: 20%;
+    top: 0;
+    width: 100%;
+    background-color: green;
+}
+
+.section__navbar {
+    margin-top: 150px;
+}
+
+.navbar__text {
+    margin: 0;
+}
+
+/* seccion texto */
+.main {
+    width: 100%;
+    margin: 5px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+/* seccion cajas */
+
+.container__boxes​ {
+    width: 100%;
+
+}
+
+.container__box1 {
+    border: #808080 2px solid;
+    margin: 1px;
+    height: 250px;
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.image1 {
+    width: 100px;
+    height: 100px;
+}
+
+.text_box1 {
+    height: 50px;
+    padding: 10px;
+}
+
+.container__box2 {
+    border: #808080 2px solid;
+    margin: 1px;
+    height: 250px;
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.image2 {
+    width: 100px;
+    height: 100px;
+}
+
+.text_box2 {
+    height: 50px;
+    padding: 10px;
+}
+
+.container__box3 {
+    border: #808080 2px solid;
+    margin: 1px;
+    height: 250px;
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.image3 {
+    width: 100px;
+    height: 100px;
+}
+
+.text_box3 {
+    height: 50px;
+    padding: 10px;
+}
+
+.container__box4 {
+    border: #808080 2px solid;
+    margin: 1px;
+    height: 250px;
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.image4 {
+    width: 100px;
+    height: 100px;
+}
+
+.text_box4 {
+    height: 50px;
+    padding: 10px;
+}
+
+/* FIN ejercicio 1*/
+
+/* Ejercicio 2*/
+
+.square {
+    height: 200px;
+    width: 200px;
+}
+
+.square__red {
+    background-color: rgba(255, 0, 0, .5);
+    position: absolute;
+    z-index: -1;
+}
+
+.square__green {
+    background-color: rgba(0, 255, 0, .5);
+    left: 25px;
+    position: absolute;
+    top: 25px;
+    z-index: -2;
+}
+
+.square__blue {
+    background-color: rgba(0, 0, 255, .5);
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    z-index: -3;
+}
+
+/* FIN Ejercicio 2*/
+
+
+
+/* Ejercicio 3*/
+
+/* bandera España*/
+
+.container__1 {
+    display: inline;
+    width: 100%;
+    margin: 50px;
+    height: 50%;
+}
+
+.box__1 {
+    margin: 50px;
+    position: relative;
+    width: 30%;
+    height: 250px;
+    left: 10px;
+    bottom: 130px;
+    background-color: red;
+    display: inline-block;
+    border: solid gray 1px;
+}
+
+.box_yellow1 {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    top: 55px;
+    background-color: yellow;
+}
+
+.text_1 {
+    position: relative;
+    top: 140px;
+    left: 10px;
+}
+
+/* bandera Dinamarca*/
+
+.box__2 {
+    margin: 50px;
+    position: relative;
+    width: 30%;
+    height: 250px;
+    top: 30px;
+    left: 10px;
+    background-color: red;
+    display: inline-block;
+    z-index: 1;
+    border: solid gray 1px;
+}
+
+.box_white1 {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    top: 100px;
+    background-color: white;
+    z-index: 0;
+    display: block;
+}
+
+.box_white2 {
+    position: relative;
+    width: 8%;
+    height: 250px;
+    left: 100px;
+    bottom: 30px;
+    background-color: white;
+    display: block;
+    z-index: 0;
+}
+
+.text_2 {
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+
+}
+
+/*seccion 2*/
+
+/*Bandera Emiratos arabes*/
+
+.container__2 {
+    display: inline;
+    width: 100%;
+    margin: 50px;
+    height: 50%;
+    position: relative;
+    left: 50px;
+}
+
+.box__3 {
+    margin: 50px;
+    margin-top: 30px;
+    position: relative;
+    width: 30%;
+    height: 250px;
+    bottom: 70px;
+    left: 10px;
+    background-color: red;
+    display: inline-block;
+    z-index: 0;
+    border: solid gray 1px;
+}
+
+.box_green {
+    position: relative;
+    width: 75%;
+    height: 83px;
+    left: 101px;
+    background-color: green;
+    z-index: 1;
+}
+
+.box_white {
+    position: relative;
+    width: 75%;
+    height: 83px;
+    left: 101px;
+    background-color: white;
+    z-index: 1;
+}
+
+.box_black {
+    position: relative;
+    width: 75%;
+    height: 83px;
+    left: 101px;
+    background-color: black;
+    z-index: 1;
+}
+
+.text_3 {
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+/* bandera Japon*/
+
+.box__4 {
+    margin: 50px;
+    position: relative;
+    width: 30%;
+    height: 250px;
+    left: 10px;
+    background-color: white;
+    display: inline-block;
+    border: solid gray 1px;
+    bottom: 200px;
+}
+
+.circle_red {
+    position: relative;
+    width: 30%;
+    height: 120px;
+    left: 130px;
+    top: 70px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.text_4 {
+    position: relative;
+    top: 140px;
+    left: 10px;
+}
+
+/*FIN ejercicio 3*/
+
+/*Ejercicio 4*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.main {
+    position: relative;
+    background-color: #B0CCAB;
+    padding: 50px;
+    width: 75%;
+    left: 150px;
+}
+
+.main__paragraph {
+    left: 40px;
+    position: relative
+}
+
+
+/*FIN ejercicio 4*/
+
+/*Ejercicio 5*/
+
+.image {
+    position: fixed;
+
+}
+
+.ribbon {
+
+    position: fixed;
+}
+
+
+/* FIN Ejercicio 5*/
+
+/*Ejercicio 6*/
+
+.image_1 {
+    position: absolute;
+    z-index: 0;
+}
+
+.ribbon_desp {
+    position: relative;
+    top: 140px;
+    left: 140px;
+    z-index: 1;
+}
+
+/* FIN Ejercicio 6*/
+
+/* Ejercicio 7*/
+
+.image__2 {
+    position: fixed;
+    left: 80em;
+}
+
+/* FIN Ejercicio 7*/
+
+/* Ejercicio 8*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li {
+    background: pink;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+}
+
+ul.menu li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    background: #000;
+}
+
+p {
+    position: relative;
+    clear: left;
+    top: 20px;
+}
+
+/* FIN Ejercicio 8*/
