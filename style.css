@@ -47,13 +47,15 @@ body {
 }
 
 .container__box1 {
+    position: relative;
     border: #808080 2px solid;
     margin: 1px;
-    height: 250px;
+    height: 270px;
     width: 23%;
     display: inline-block;
     text-align: center;
     padding-top: 5px;
+    left: 20px;
 
 }
 
@@ -68,13 +70,15 @@ body {
 }
 
 .container__box2 {
+    position: relative;
     border: #808080 2px solid;
     margin: 1px;
-    height: 250px;
+    height: 270px;
     width: 23%;
     display: inline-block;
     text-align: center;
     padding-top: 5px;
+    left: 20px;
 
 }
 
@@ -89,13 +93,15 @@ body {
 }
 
 .container__box3 {
+    position: relative;
     border: #808080 2px solid;
     margin: 1px;
-    height: 250px;
+    height: 270px;
     width: 23%;
     display: inline-block;
     text-align: center;
     padding-top: 5px;
+    left: 20px;
 
 }
 
@@ -110,13 +116,15 @@ body {
 }
 
 .container__box4 {
+    position: relative;
     border: #808080 2px solid;
     margin: 1px;
-    height: 250px;
+    height: 270px;
     width: 23%;
     display: inline-block;
     text-align: center;
     padding-top: 5px;
+    left: 20px;
 
 }
 
@@ -347,7 +355,7 @@ body {
 }
 
 
-.main {
+.main_p {
     position: relative;
     background-color: #B0CCAB;
     padding: 50px;
