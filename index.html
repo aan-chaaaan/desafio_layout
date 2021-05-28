@@ -7,35 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro</title>
     <style>
-        body {
+        body,
+        html {
+            width: 100%;
+            height: 100%;
             background-color: #a0a3c5;
+        }
+
+        .contenedor {
+            width: 90%;
+            height: 50%;
+            position: relative;
+            top: 15em;
+            left: 7em;
         }
 
         button {
             background-color: pink;
             width: 10em;
             height: 7em;
+            border-radius: 10%;
         }
 
         .link {
             text-decoration: none;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: white;
-            font-size: medium;
-            font-weight: 500;
+            font-size: large;
+            font-weight: 700;
         }
     </style>
 </head>
 
 <body>
-    <button><a class="link" href="/ejercicio-1/ejercicio-1.html">Ejercicio 1</a></button>
-    <button><a class="link" href="/ejercicio-2/ejercicio-2.html">Ejercicio 2</a></button>
-    <button><a class="link" href="/ejercicio-3/ejercicio-3.html">Ejercicio 3</a></button>
-    <button><a class="link" href="/ejercicio-4/ejercicio-4.html">Ejercicio 4</a></button>
-    <button><a class="link" href="/ejercicio-5/ejercicio-5.html">Ejercicio 5</a></button>
-    <button><a class="link" href="/ejercicio-6/ejercicio-6.html">Ejercicio 6</a></button>
-    <button><a class="link" href="/ejercicio-7/ejercicio-7.html">Ejercicio 7</a></button>
-    <button><a class="link" href="/ejercicio-8/ejercicio-8.html">Ejercicio 8</a></button>
+    <div class="contenedor">
+        <button><a class="link" href="/ejercicio-1/ejercicio-1.html">Ejercicio 1</a></button>
+        <button><a class="link" href="/ejercicio-2/ejercicio-2.html">Ejercicio 2</a></button>
+        <button><a class="link" href="/ejercicio-3/ejercicio-3.html">Ejercicio 3</a></button>
+        <button><a class="link" href="/ejercicio-4/ejercicio-4.html">Ejercicio 4</a></button>
+        <button><a class="link" href="/ejercicio-5/ejercicio-5.html">Ejercicio 5</a></button>
+        <button><a class="link" href="/ejercicio-6/ejercicio-6.html">Ejercicio 6</a></button>
+        <button><a class="link" href="/ejercicio-7/ejercicio-7.html">Ejercicio 7</a></button>
+        <button><a class="link" href="/ejercicio-8/ejercicio-8.html">Ejercicio 8</a></button>
+    </div>
+
 </body>
 
 </html>
